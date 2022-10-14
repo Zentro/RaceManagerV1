@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteRule ^admin-view     admin-view.php
+RewriteRule ^admin-login    admin-login.php
+RewriteRule ^admin-logout   admin-logout.php
+RewriteRule ^rules          get-rules.php
+
+# Comply with old RoR API as of 2022.04
+RewriteRule ^races          submit-race.php
